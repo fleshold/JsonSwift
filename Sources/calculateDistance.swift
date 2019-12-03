@@ -56,7 +56,7 @@ public func calculateDistance(start: Point, end: Point, technique: DistanceTechn
 
     //метод сравнения
     switch technique {
-        // по Евклиду
+        // по Пифагору
     case .Euclidean:
          return Euclidean()
         // если миллион точек приходит (например юзер водит пальцем по экрану)
